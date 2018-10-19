@@ -1,8 +1,8 @@
 version: '3'
 services:
   myapp:
-    image: siranee/node-express-resume
+    image: fernsiranee58/resume-fern
     ports:
-      - "8000:8000"
+      - "8038:8000"
     command: "npm start"
 
