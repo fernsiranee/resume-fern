@@ -1,0 +1,8 @@
+version: "3"
+service:
+	myapp:
+		image: fernsiranee58/resume-fern
+		posts:
+		 - "8038:8000"
+	command: "node index.js"
+
